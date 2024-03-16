@@ -5,7 +5,7 @@ import io
 import torch
 import torchvision
 import cv2
-from Fisheye.fisyeye_dataset import FishEyeDataset
+from Source.fisyeye_dataset import FishEyeDataset
 from torchvision.transforms import ToTensor
 from torch.optim import SGD
 from torch.utils.tensorboard import SummaryWriter
